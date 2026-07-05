@@ -96,14 +96,14 @@ jupyter notebook
 
 SHAP Summary Plot — What Drives Churn?
 
-(See outputs/shap_summary_plot.png)
+![SHAP Summary](outputs/shap_summary_plot.png)
+
 
 The SHAP beeswarm plot shows that contract type, monthly charges, and tenure are the strongest predictors of churn. Month-to-month contracts push predictions strongly toward churn (right side), while longer tenure pushes predictions away from churn (left side).
 
 ROC Curve Comparison
 
-(See outputs/roc_curves.png)
-
+![ROC Curves](outputs/roc_curves.png)
 XGBoost achieves the best ROC-AUC of ~0.89, outperforming the logistic regression baseline by ~5 percentage points.
 
 💡 Business Recommendations
