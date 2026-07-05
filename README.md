@@ -48,6 +48,7 @@ churn-prediction/
 │
 ├── data/                            
 ├── requirements.txt
+├──.gitignore
 └── README.md
 📁 Dataset
 
